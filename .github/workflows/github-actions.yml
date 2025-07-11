@@ -3,7 +3,7 @@ name: Pull and Commit Traffic Data
 on:
   schedule:
     - cron: '*/5 * * * *'  # every 5 minutes UTC
-  #workflow_dispatch:        # optional manual trigger
+  workflow_dispatch:        # optional manual trigger
 
 jobs:
   run-script:
