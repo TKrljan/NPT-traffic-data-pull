@@ -11,8 +11,8 @@ username = "tomislav.krljan@uniri.hr"
 password = "7iq2YaxY"
 specific_ids = ["COUNTER:A7:CAV:171049", "COUNTER:A7:CAV:171050", "COUNTER:A7:CAV:171051", "COUNTER:A7:CAV:171052"]
 
-# Output folder for CSVs and raw XML
-output_folder = "C:/Users/tkrljan/Desktop/my-map-platform/pool-data-from-server"
+# Output folder (relative path for GitHub Actions)
+output_folder = "data"
 os.makedirs(output_folder, exist_ok=True)
 
 # Prepare empty DataFrames
